@@ -7,12 +7,12 @@ The system comprises several microservices, each responsible for specific functi
 
 Key Components:
 
-    Spring Cloud Gateway: Acts as the API gateway to route requests to the appropriate microservices.
-    Authentication Service: Handles user authentication and authorization.
-    Patient Service: Manages patient-related operations.
-    Doctor Service: Manages doctor-related operations.
-    Appointment Service: Handles scheduling and managing appointments.
-    Notification Service: Sends notifications via SMS and email.
-    PostgreSQL: Database for storing user, doctor, patient, and appointment data.
-    Testing Frameworks: Utilizes JUnit and Mockito for testing.
+-Spring Cloud Gateway: Acts as the API gateway to route requests to the appropriate microservices.
+-Authentication Service: Handles user authentication and authorization.
+-Patient Service: Manages patient-related operations.
+-Doctor Service: Manages doctor-related operations.
+-Appointment Service: Handles scheduling and managing appointments.
+-Notification Service: Sends notifications via SMS and email.
+-PostgreSQL: Database for storing user, doctor, patient, and appointment data.
+-Testing Frameworks: Utilizes JUnit and Mockito for testing.
     
