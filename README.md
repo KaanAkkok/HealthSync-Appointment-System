@@ -25,4 +25,5 @@ Key Components:
 -Testing Frameworks: Utilizes JUnit and Mockito for testing.
     
 Class Diagram:
-![Class Diagram of Services](https://github.com/user-attachments/assets/58dfaad1-4392-4247-b991-234ae19f84d2)
+
+![deneme](https://github.com/user-attachments/assets/e1eb7c3d-b88b-4ed0-bcc3-4eb927a30829)
