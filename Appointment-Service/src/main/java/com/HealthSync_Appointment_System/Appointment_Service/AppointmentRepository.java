@@ -1,5 +1,7 @@
 package com.HealthSync_Appointment_System.Appointment_Service;
 
-public class AppointmentRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
 
+public interface AppointmentRepository extends JpaRepository<Appointment, Long> {
 }
+
