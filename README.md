@@ -96,7 +96,7 @@ The design of the HealthSync system is centered around a microservices architect
 1. PatientDetailsDTO: Data Transfer Object for appointment service. Includes fields like patient name and patient email. 
 1. AppConfig (RestTemplate): Used for making HTTP requests to other services. 
 
-- **Class Diagram:
+**General Class Diagram:
 
 ![](README/Aspose.Words.25391652-b1ef-4226-bd2b-d681abec92bb.006.jpeg)**
 
