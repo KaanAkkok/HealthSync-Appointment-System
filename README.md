@@ -34,11 +34,11 @@ The design of the HealthSync system is centered around a microservices architect
 
 **System Desing:** 
 
-![](Aspose.Words.25391652-b1ef-4226-bd2b-d681abec92bb.001.jpeg)
+![](README/Aspose.Words.25391652-b1ef-4226-bd2b-d681abec92bb.001.jpeg)
 
 **Sequence Diagram:** 
 
-![](Aspose.Words.25391652-b1ef-4226-bd2b-d681abec92bb.002.jpeg)
+![](README/Aspose.Words.25391652-b1ef-4226-bd2b-d681abec92bb.002.jpeg)
 
 **1. API Gateway** 
 
@@ -49,7 +49,7 @@ The design of the HealthSync system is centered around a microservices architect
 1. AppConfig (RestTemplate): Used for making HTTP requests to other services. 
 - **Class Diagram:** 
 
-![](Aspose.Words.25391652-b1ef-4226-bd2b-d681abec92bb.003.jpeg)
+![](README/Aspose.Words.25391652-b1ef-4226-bd2b-d681abec92bb.003.jpeg)
 
 **2. Patient Service** 
 
@@ -63,7 +63,7 @@ The design of the HealthSync system is centered around a microservices architect
 5. PatientDetailsDTO: Data Transfer Object for appointment service. Includes fields like patient name and patient email. 
 - **Class Diagram:** 
 
-![](Aspose.Words.25391652-b1ef-4226-bd2b-d681abec92bb.004.jpeg)
+![](README/Aspose.Words.25391652-b1ef-4226-bd2b-d681abec92bb.004.jpeg)
 
 **3. Doctor Service** 
 
@@ -77,7 +77,7 @@ The design of the HealthSync system is centered around a microservices architect
 3. DoctorDetailsDTO: Data Transfer Object for appointment service. Includes fields like doctor name, doctor email, doctor specialty, doctor availableTime and doctor availableDate. 
 - **Class Diagram:** 
 
-![](Aspose.Words.25391652-b1ef-4226-bd2b-d681abec92bb.005.jpeg)
+![](README/Aspose.Words.25391652-b1ef-4226-bd2b-d681abec92bb.005.jpeg)
 
 **4. Appointment Service** 
 
@@ -96,7 +96,9 @@ The design of the HealthSync system is centered around a microservices architect
 1. PatientDetailsDTO: Data Transfer Object for appointment service. Includes fields like patient name and patient email. 
 1. AppConfig (RestTemplate): Used for making HTTP requests to other services. 
 
-- **Class Diagram: ![](Aspose.Words.25391652-b1ef-4226-bd2b-d681abec92bb.006.jpeg)**
+- **Class Diagram:
+
+![](README/Aspose.Words.25391652-b1ef-4226-bd2b-d681abec92bb.006.jpeg)**
 
 **5. Email Service** 
 
@@ -107,7 +109,7 @@ The design of the HealthSync system is centered around a microservices architect
 1. EmailService:  Contains methods for sending  email  notifications. Simulates email sending for appointment confirmations and reminders. 
 1. AppointmentDetailsDTO: Data Transfer Object, used to encapsulate the details of an appointment. This DTO includes fields like patient name, patient email, doctor name, doctor email, appointment date, appointment time. 
 
-![](Aspose.Words.25391652-b1ef-4226-bd2b-d681abec92bb.007.jpeg)
+![](README/Aspose.Words.25391652-b1ef-4226-bd2b-d681abec92bb.007.jpeg)
 
 **Testing :** 
 
