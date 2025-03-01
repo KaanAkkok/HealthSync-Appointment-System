@@ -109,6 +109,8 @@ The design of the HealthSync system is centered around a microservices architect
 1. EmailService:  Contains methods for sending  email  notifications. Simulates email sending for appointment confirmations and reminders. 
 1. AppointmentDetailsDTO: Data Transfer Object, used to encapsulate the details of an appointment. This DTO includes fields like patient name, patient email, doctor name, doctor email, appointment date, appointment time. 
 
+- **Class Diagram:**
+
 ![](README/Aspose.Words.25391652-b1ef-4226-bd2b-d681abec92bb.007.jpeg)
 
 **Testing :** 
