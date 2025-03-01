@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS patient_db;
+
+USE patient_db;
+
+CREATE TABLE IF NOT EXISTS patients (
+    patient_id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    patient_name VARCHAR(100) NOT NULL,
+    patient_email VARCHAR(100) UNIQUE NOT NULL
+);
